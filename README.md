@@ -56,5 +56,5 @@ This dashboard is part of a portfolio project to demonstrate data visualization 
 ## 📬 Contact
 
 **Anil Kumar**  
-Data Analyst | Python • SQL • Power BI • Excel  
+Aspiring Data Analyst | • Python • SQL • Power BI • Excel • Machine Learning
 [LinkedIn](https://www.linkedin.com/in/anil-kumar-554561225/)
