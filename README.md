@@ -1,60 +1,60 @@
-# 📞 Call Center Performance Dashboard (Power BI)
 
-This Power BI report analyzes call center performance metrics to help stakeholders understand service efficiency, agent productivity, and customer experience trends.
+# 📞 Call Centre Analysis Dashboard
 
-## 📊 Dashboard Overview
+This Power BI dashboard provides an interactive analysis of call centre performance using key performance indicators (KPIs) to help monitor and improve operational efficiency.
 
-The report includes detailed insights into:
+## 📊 Dashboard Features
 
-- Total Calls Handled
-- Average Call Duration
-- First Call Resolution Rate (FCR)
-- Agent-wise Performance
-- Call Category Distribution
-- SLA Adherence
-- Peak Call Times
+### 🎯 Filters
+- **Agent Selector**: Filter dashboard by individual agents.
+- **Topic Filter**: Analyze calls based on specific topics.
+- **Date Filter**: Drill down into calls based on the time period.
 
-## 🧠 Key Objectives
+### 📞 Key Metrics
+- **Answered Calls %**: Visual doughnut showing answered vs. missed calls.
+- **Resolved Calls %**: Displays resolution rate for customer calls.
+- **Average Speed of Answer (SOA)**: Shows how quickly calls are answered.
+- **Average Customer Satisfaction Rating**: Out of 5, based on customer feedback.
+- **Monthly Call Trends**: Tracks answered/missed calls across months.
+- **Agent Statistics Table**: Displays agent-wise metrics:
+  - Calls Answered & Resolved
+  - Average Satisfaction Rating
+  - Average Speed of Answer (Sec)
 
-- Monitor daily and monthly call volumes
-- Identify high-performing and low-performing agents
-- Analyze customer wait times and call durations
-- Evaluate resolution quality through FCR
-- Track SLA compliance across time slots
+## 🛠 Tools Used
+- **Power BI**: For data modeling and interactive visualizations
+- **Excel/CSV**: (Assumed) as the source for raw call data
+- **DAX**: For calculated measures like % answered, average rating, etc.
 
-## 🔧 Tools Used
-
-- **Power BI Desktop**
-- **DAX (Data Analysis Expressions)**
-- **Power Query (ETL)**
-- **Interactive Visuals & Slicers**
-
-## 📂 File Contents
-
-| File Name                    | Description                                   |
-|-----------------------------|-----------------------------------------------|
-| `Call center Analysis.pbix` | Power BI Dashboard Report                     |
+## 📈 Insights Derived
+- Overall resolution rate is ~73%
+- Calls are answered in approx. 67.5 seconds on average
+- Satisfaction ratings range around 3.4/5
+- Highest call volume was in January
 
 ## 🚀 How to Use
+1. Clone or download the repository.
+2. Open the `.pbix` file in Power BI Desktop.
+3. Connect to the dataset if needed or replace it with your own.
+4. Use the filters to interact and explore agent performance and call centre efficiency.
 
-1. Download the `.pbix` file.
-2. Open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop).
-3. Refresh the data if connected to a live source.
-4. Interact with visuals using filters and slicers.
-
-## 📌 Insights You Can Gain
-
-- When are the busiest call hours?
-- Which agents consistently meet or miss SLA targets?
-- What call categories require more training or automation?
-- Is your FCR rate improving over time?
+## 📁 Repository Structure
+```
+📦 Call-Centre-Dashboard
+ ┣ 📊 CallCentreDashboard.pbix
+ ┣ 📄 README.md
+ ┗ 📂 01 Call-Center-Dataset.xlsx
+```
 
 ## 🙌 Acknowledgments
 
 This dashboard is part of a portfolio project to demonstrate data visualization and analytics capabilities for call center operations.
 
+---
+
 ## 📬 Contact
 
 **Anil Kumar**  
-Aspiring Data Analyst | • Python • SQL • Power BI • Excel • Machine Learning
+MIS Executive | Aspiring Data Analyst | • Python • SQL • Power BI • Excel • Machine Learning  
+📧 [ak26458624@gmail.com](mailto:ak26458624@gmail.com) | 
 [LinkedIn](https://www.linkedin.com/in/anil-kumar-554561225/)
