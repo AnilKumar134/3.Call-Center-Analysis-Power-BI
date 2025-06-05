@@ -25,7 +25,7 @@ This Power BI dashboard provides an interactive analysis of call centre performa
 - **Power BI**: For data modeling and interactive visualizations
 - **Excel/CSV**: (Assumed) as the source for raw call data
 - **DAX**: For calculated measures like % answered, average rating, etc.
-
+- 
 ## 📈 Insights Derived
 - Overall resolution rate is ~73%
 - Calls are answered in approx. 67.5 seconds on average
